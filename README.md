@@ -9,9 +9,6 @@ I'll keep adding more with time.
 - [Installation](#installation)
 - [Context](#context)
 - [Configuration](#configuration)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
 
 ## Context
 
