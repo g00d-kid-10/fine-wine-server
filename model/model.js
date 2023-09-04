@@ -1,7 +1,7 @@
 const mongoose = require('mongoose')
 
-var schema = mongoose.Schema({
-    Title:{type:String},
+const MovieSchema = mongoose.Schema({
+    Title:{type:String, required:true },
     Genre:{type:String},
     Description:{type:String},
     Director:{type:String},
@@ -16,5 +16,20 @@ var schema = mongoose.Schema({
     vlink:{type:String}
 })
 
-const movieDB = mongoose.model('movieDB', schema)
-module.exports = movieDB
+const TVShowSchema = mongoose.Schema({
+    Title:{type:String, required:true },
+    Genre:{type:String},
+    Description:{type:String},
+    Director:{type:String},
+    Actors:{type:String},
+    Year:{type:Number},
+    Runtime:{type:Number},
+    Rating:{type:Number},
+    Votes:{type:Number},
+    plink:{type:String},
+    vlink:{type:String}
+})
+
+const movieDB = mongoose.model('movieDB', MovieSchema)
+const tvshowDB = mongoose.model('tvshowDB', TVShowSchema)
+module.exports = {movieDB, tvshowDB}
