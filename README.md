@@ -25,4 +25,4 @@ MONGO_URI=mongodb+srv://newuser:gnUjYmE2vVrVXY6Q@cluster0.xvgnxah.mongodb.net/?r
 
 2. Start the application: `npm run start`
 3. Visit for Movies http://localhost:4000/movies
-4. Visit for Movies http://localhost:4000/tvshows
+4. Visit for TV Shows http://localhost:4000/tvshows
