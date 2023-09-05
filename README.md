@@ -1,22 +1,16 @@
 # Fine Wine Collections
 
-I've built this website having a collection of some of the classic Cinema and TV Shows.
-Explore the trailers and you can add these to your watchlist if you like the trailer.
-I'll keep adding more with time.
-
+This API has a collection of some of the classic Cinema and TV Shows. This backend API was created in light of using it as a service for a client-side application which is hosted on `https://main.dp314ml7x5rm3.amplifyapp.com/` using AWS. <br>
+I'll keep adding more with time. <br>
+Client-Side Source Code: `https://github.com/g00d-kid-10/fine-wine-client.git`
 ## Table of Contents
 
 - [Installation](#installation)
-- [Context](#context)
 - [Configuration](#configuration)
-
-## Context
-
-It's a backend service API that contains the data, that I later used in the client-side development of this project.
 
 ## Installation
 
-1. Clone the repository: `https://github.com/g00d-kid-10/backend_movie.git`
+1. Clone the repository: `https://github.com/g00d-kid-10/fine-wine-server.git`
 
 2. Install dependencies: `npm install`
 
@@ -30,4 +24,5 @@ MONGO_URI=mongodb+srv://newuser:gnUjYmE2vVrVXY6Q@cluster0.xvgnxah.mongodb.net/?r
 ```
 
 2. Start the application: `npm run start`
-3. Visit the localhost website.
+3. Visit for Movies http://localhost:4000/movies
+4. Visit for Movies http://localhost:4000/tvshows
